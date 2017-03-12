@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
-import './Button.css';
+import LunchContainer from '../../components/LunchContainer/LunchContainer.js'
 
 class App extends Component {
   render() {
+
     return (
       <div className="App">
         <h1>Friday Lunch Delivery</h1>
-        <Button onClick={}/>
+        <LunchContainer></LunchContainer>
       </div>
     );
   }
 }
 
-export default App;
+export default App
